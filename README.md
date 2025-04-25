@@ -20,9 +20,9 @@ Antes de começar, você precisa ter instalado na sua máquina:
 Rodar o Backend
 Entre na pasta do backend, instale as dependências e inicie o servidor:
 
-cd backend
-npm install
-npm start
+- cd backend
+- npm install
+- npm start
 
 ⚙️ Configuração do Banco de Dados
 
@@ -42,7 +42,7 @@ O backend estará disponível em:
 3. Rodar o Frontend
 Abra um novo terminal na raiz do projeto e execute:
 
-cd frontend
-npm install
-npm start
+- cd frontend
+- npm install
+- npm start
 
