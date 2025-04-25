@@ -39,7 +39,7 @@ const db = mysql.createConnection({
 O backend estará disponível em:
 📍 http://localhost:8800
 
-3. Rodar o Frontend
+Rodar o Frontend
 Abra um novo terminal na raiz do projeto e execute:
 
 - cd frontend
