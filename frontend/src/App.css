@@ -1,0 +1,115 @@
+.cabecalho-nome {
+  padding: 6px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  color: #d84890;
+  margin-top: 25px;
+  margin-bottom: -20px;
+}
+
+.lista-animais {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-lista {
+  text-align: center;
+  color: #333;
+  margin-bottom: 24px;
+  font-size: 28px;
+  margin-top: -5px;
+}
+
+.itens-lista {
+  list-style: none;
+  padding: 0;
+}
+
+.item-lista {
+  background-color: #ffffff;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  transition: box-shadow 0.3s;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.item-lista:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-animal {
+  margin: 6px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.acoes-animal {
+  display: flex;
+  gap: 10px;
+}
+
+.botao-acao,
+.botao-deletar{
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao-detalhes {
+  padding: 8px 14px;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao-acao {
+  background-color: #2196f3;
+}
+
+.botao-acao:hover {
+  background-color: #1768b9;
+}
+
+.botao-deletar {
+  background-color: #f351a2;
+}
+
+.botao-deletar:hover {
+  background-color: #c7237d;
+}
+
+.botao-detalhes {
+  background-color: #bb3ad4;
+}
+
+.botao-detalhes:hover {
+  background-color: #7b1fa2;
+}
+
+.add-image{
+  background-color: #f1f1f1;
+  border-radius: 12px;
+}
+
+.add-image:hover{
+  background-color: #d0f0ce;
+}

@@ -1,0 +1,46 @@
+.detalhes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.detalhes-conteudo {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  width: 100%;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.detalhes-conteudo h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.detalhes-conteudo p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #555;
+}
+
+.detalhes-conteudo p strong {
+  color: #222;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
