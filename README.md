@@ -30,10 +30,15 @@ Antes de rodar o backend, configure o acesso ao seu banco MySQL.
 Abra o arquivo backend/Routes/db.js e edite com suas credenciais:
 
 const db = mysql.createConnection({
+
   host: "localhost",
+  
   user: "SEU_USUARIO",
+  
   password: "SUA_SENHA",
+  
   database: "NOME_DO_BANCO"
+  
 });
 
 O backend estará disponível em:
